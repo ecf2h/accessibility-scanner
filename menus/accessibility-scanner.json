@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle accessibility-scanner",
+        "command": "accessibility-scanner:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "accessibility-scanner",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "accessibility-scanner:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
